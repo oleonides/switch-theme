@@ -1,1 +1,114 @@
-<p>pieces works!</p>
+<p-card>
+    <h2>Buttons</h2>
+    <button pButton pRipple label="Primary"></button>
+    <button pButton pRipple label="Secondary" class="p-button-secondary"></button>
+    <button pButton pRipple p-button-raised label="Primary raised"></button>
+    <button pButton pRipple p-button-raised label="Secondary raised" class="p-button-secondary"></button>
+</p-card>
+
+<p-card>
+    <h2>Input text</h2>
+    <div class="p-input-filled">
+        <input pInputText/>
+    </div>
+    <div class="p-input-filled">
+        <span class="p-float-label">
+            <input id="float-input" pInputText> 
+            <label for="float-input">Username</label>
+        </span>
+    </div>
+    <div>
+        <input pInputText/>
+    </div>
+    <span class="p-float-label">
+        <input id="float-input" pInputText> 
+        <label for="float-input">Username</label>
+    </span>
+
+    <h2>Input number</h2>
+    <div class="p-input-filled">
+        <p-inputNumber [(ngModel)]="inputNumber" [showButtons]="true"></p-inputNumber>
+    </div>
+
+    <h2>Input switch</h2>
+    <p-inputSwitch></p-inputSwitch>
+</p-card>
+
+<p-card>
+    <h2>Radio button</h2>
+    <div class="p-field-radiobutton">
+        <p-radioButton
+            name="city"
+            value="Chicago"
+            [(ngModel)]="city"
+            inputId="r-city1">
+        </p-radioButton>
+        <label for="r-city1">Chicago</label>
+    </div>
+    <div class="p-field-radiobutton">
+        <p-radioButton
+            name="city"
+            value="Los Angeles"
+            [(ngModel)]="city"
+            inputId="r-city2">
+        </p-radioButton>
+        <label for="r-city2">Los Angeles</label>
+    </div>
+    <div class="p-field-radiobutton">
+        <p-radioButton
+            name="city"
+            value="New York"
+            [(ngModel)]="city"
+            inputId="r-city3">
+        </p-radioButton>
+        <label for="r-city3">New York</label>
+    </div>
+    <div class="p-field-radiobutton">
+        <p-radioButton
+            name="city"
+            value="San Francisco"
+            [(ngModel)]="city"
+            inputId="r-city4">
+        </p-radioButton>
+        <label for="r-city4">San Francisco</label>
+    </div>
+
+    <h2>Checkbox</h2>
+    <div class="p-field-checkbox">
+        <p-checkbox
+            name="city"
+            value="Chicago"
+            [(ngModel)]="selectedCities"
+            inputId="c-city1">
+        </p-checkbox>
+        <label for="c-city1">Chicago</label>
+    </div>
+    <div class="p-field-checkbox">
+        <p-checkbox
+            name="city"
+            value="Los Angeles"
+            [(ngModel)]="selectedCities"
+            inputId="c-city2">
+        </p-checkbox>
+        <label for="c-city2">Los Angeles</label>
+    </div>
+    <div class="p-field-checkbox">
+        <p-checkbox
+            name="city"
+            value="New York"
+            [(ngModel)]="selectedCities"
+            inputId="c-city3">
+        </p-checkbox>
+        <label for="c-city3">New York</label>
+    </div>
+    <div class="p-field-checkbox">
+        <p-checkbox
+            name="city"
+            value="San Francisco"
+            [(ngModel)]="selectedCities"
+            inputId="c-city4">
+        </p-checkbox>
+        <label for="c-city4">San Francisco</label>
+    </div>
+</p-card>
+
