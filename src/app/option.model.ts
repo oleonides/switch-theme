@@ -4,5 +4,6 @@ export interface Option {
   headingColor: string;
   label: string;
   value: string;
-  icon?: string
+  icon?: string;
+  dir: string;
 }

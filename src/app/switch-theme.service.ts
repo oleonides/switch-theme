@@ -40,7 +40,7 @@ export class SwitchThemeService {
 
   themeChangeHandler(themeToSet: Option) {
     this.selectedTheme = themeToSet;
-    this.styleManager.setStyle(`${this.stylesBasePath}${themeToSet.value}.css`);
+    this.styleManager.setStyle(`${this.stylesBasePath}${themeToSet.dir}.css`);
     this.updateBodyClass(themeToSet.value);
     localStorage.setItem('theme', themeToSet.value);
   }
