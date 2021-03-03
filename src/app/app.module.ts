@@ -6,12 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MenuComponent } from './components/menu/menu.component';
-import {InputTextModule} from 'primeng/inputtext';
-import {ToolbarModule} from 'primeng/toolbar';
-import {ButtonModule} from 'primeng/button';
-import { RippleModule } from 'primeng/ripple';
-import { MenuModule } from 'primeng/menu';
 import { PiecesComponent } from './components/pieces/pieces.component';
+import { PrimengModule } from './primeng.module';
 
 @NgModule({
   declarations: [
@@ -24,11 +20,7 @@ import { PiecesComponent } from './components/pieces/pieces.component';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    InputTextModule,
-    ToolbarModule,
-    ButtonModule,
-    RippleModule,
-    MenuModule
+    PrimengModule
   ],
   providers: [],
   bootstrap: [AppComponent]
