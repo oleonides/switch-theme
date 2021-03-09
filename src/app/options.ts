@@ -36,8 +36,16 @@ export const options = [
     backgroundColor: '#fff',
     buttonColor: '#ff4081',
     headingColor: '#3f51b5',
+    label: 'MD light indigo',
+    value: 'md-light-indigo',
+    dir: 'md-light-indigo/md-light-indigo'
+  },
+  {
+    backgroundColor: '#fff',
+    buttonColor: '#ff4081',
+    headingColor: '#3f51b5',
     label: 'MD dark indigo',
     value: 'md-dark-indigo',
     dir: 'md-dark-indigo/md-dark-indigo'
-  },
+  }
 ];
