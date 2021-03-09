@@ -2,8 +2,17 @@
     <h2>Buttons</h2>
     <button pButton pRipple label="Primary"></button>
     <button pButton pRipple label="Secondary" class="p-button-secondary"></button>
-    <button pButton pRipple p-button-raised label="Primary raised"></button>
-    <button pButton pRipple p-button-raised label="Secondary raised" class="p-button-secondary"></button>
+    <button pButton pRipple label="Primary raised" class="p-button-raised"></button>
+    <button pButton pRipple label="Secondary raised" class="p-button-secondary p-button-raised"></button>
+    <button pButton pRipple label="Danger" class="p-button-danger p-button-raised"></button>
+    <button pButton pRipple label="Info" class="p-button-info p-button-raised"></button>
+    <button pButton pRipple label="Warning" class="p-button-warning p-button-raised"></button>
+    <button pButton pRipple label="Success" class="p-button-success p-button-raised"></button>
+</p-card>
+
+<p-card>
+    <h2>Messages</h2>
+    <p-messages [(value)]="msgs" [enableService]="false"></p-messages>
 </p-card>
 
 <p-card>

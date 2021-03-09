@@ -10,7 +10,7 @@ import { MenuModule } from 'primeng/menu';
 import { CardModule } from 'primeng/card';
 import { RadioButtonModule } from 'primeng/radiobutton';
 import { CheckboxModule } from 'primeng/checkbox';
-
+import { MessagesModule } from 'primeng/messages';
 
 @NgModule({
   declarations: [],
@@ -24,7 +24,8 @@ import { CheckboxModule } from 'primeng/checkbox';
     MenuModule,
     CardModule,
     RadioButtonModule,
-    CheckboxModule
+    CheckboxModule,
+    MessagesModule
   ],
   imports: [
     CommonModule
