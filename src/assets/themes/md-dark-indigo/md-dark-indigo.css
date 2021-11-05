@@ -4469,7 +4469,7 @@ p-treeselect.ng-invalid.ng-dirty > .p-treeselect {
 }
 .p-overlaypanel .p-overlaypanel-close {
   background: #ffd740;
-  color: #fff;
+  color: #121212;
   width: 2.5rem;
   height: 2.5rem;
   transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
@@ -4480,7 +4480,7 @@ p-treeselect.ng-invalid.ng-dirty > .p-treeselect {
 }
 .p-overlaypanel .p-overlaypanel-close:enabled:hover {
   background: rgba(255, 215, 64, 0.92);
-  color: #fff;
+  color: #121212;
 }
 .p-overlaypanel:after {
   border: solid transparent;
@@ -6015,7 +6015,7 @@ p-treeselect.ng-invalid.ng-dirty > .p-treeselect {
 }
 .p-toast .p-toast-message.p-toast-message-success .p-toast-message-icon,
 .p-toast .p-toast-message.p-toast-message-success .p-toast-icon-close {
-  color: #1b5e20;
+  color: #fff;
 }
 .p-toast .p-toast-message.p-toast-message-warn {
   background: #f37b1d;
